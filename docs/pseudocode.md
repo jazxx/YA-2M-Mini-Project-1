@@ -122,6 +122,7 @@ LOAD_PREORDER(file)
     for every code in file
         find the complete Airport record in the catalog
         INSERT(record)
+    report the height and the top three levels
 ```
 
 ## Validate with ranges

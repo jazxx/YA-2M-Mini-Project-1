@@ -1,0 +1,9 @@
+airports
+*.o
+*.out
+.DS_Store
+build/
+tree.txt
+/MiniProject_Airport_BST.pdf
+/airports.csv
+/airports.dat
