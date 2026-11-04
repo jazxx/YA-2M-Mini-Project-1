@@ -4,7 +4,7 @@ The tree is ordered by the three-character IATA code. Tree height and node depth
 
 ## Build from the airport file
 
-```text
+```
 BUILD_FROM_FILE(file)
     create an empty airport array
     create an empty BST
@@ -22,7 +22,7 @@ BUILD_FROM_FILE(file)
 
 ## Insert
 
-```text
+```
 INSERT(airport)
     if root is NULL
         root = new node containing airport
@@ -46,7 +46,7 @@ INSERT(airport)
 
 ## Search
 
-```text
+```
 SEARCH(code)
     current = root
     comparisons = 0
@@ -67,7 +67,7 @@ SEARCH(code)
 
 ## Delete
 
-```text
+```
 DELETE(code)
     search iteratively for the node and the link from its parent
     if node is not found
@@ -90,7 +90,7 @@ DELETE(code)
 
 ## Inorder traversal
 
-```text
+```
 INORDER(root)
     create an empty stack
     current = root
@@ -105,7 +105,7 @@ INORDER(root)
 
 ## Preorder save and reload
 
-```text
+```
 SAVE_PREORDER(root, file)
     if root is NULL
         return
@@ -126,7 +126,7 @@ LOAD_PREORDER(file)
 
 ## Validate with ranges
 
-```text
+```
 VALIDATE(node, low, high)
     if node is NULL
         return true
@@ -144,7 +144,7 @@ To validate the whole tree, call VALIDATE(root, no lower bound, no upper bound).
 
 ## Inclusive range query
 
-```text
+```
 RANGE(node, from, to)
     if node is NULL
         return
@@ -159,7 +159,7 @@ RANGE(node, from, to)
 
 ## Balanced build
 
-```text
+```
 BUILD_BALANCED(sortedAirports, begin, end)
     if begin >= end
         return NULL
@@ -177,7 +177,7 @@ REBALANCE()
 
 ## Height and average depth
 
-```text
+```
 TREE_METRICS(root)
     if root is NULL
         return height -1 and average depth 0
